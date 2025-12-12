@@ -21,6 +21,10 @@ body{
     background-repeat: no-repeat;
 }
 
+.logo{
+    cursor: pointer;
+}
+
 .container{
     padding: 10px 10%;
 }
@@ -54,7 +58,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #ff0022;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -63,7 +67,107 @@ nav ul li a::after{
 
 nav ul li a:hover::after{
     width: 100%;
-    
 }
 /* End header */
 
+/* Begin home */
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.header-text h1{
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+/* .header-text h3 span{
+    color: #ff004f;
+} */
+
+.header-text h3 span.red{
+    color: #ff0015;
+}
+
+.header-text h3 span.green{
+    color: #16a811;
+}
+/* End home */
+
+
+/* Begin about */
+#about{
+    padding: 80px 0;
+    color: #ababab;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1{
+    flex-basis: 35%;
+}
+
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about-col-2{
+    flex-basis: 60%;
+}
+
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.tab-titles{
+    margin: 20px 0 40px;
+    display: flex;
+}
+
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff0022;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.active-link.active-link::after{
+    width: 50%;
+}
+
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.tab-contents ul li span{
+    color:  #ff0037;
+    font-size: 14px;
+}
+
+.tab-contents{
+    display: none;
+}
+
+.tab-contents.active-tabs{
+    display: block;
+}
