@@ -9,7 +9,8 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" type="image/png" href="images/portredlogo.png">
-</head>
+    <script src="https://kit.fontawesome.com/122bf57c0b.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <div id="header">
@@ -31,10 +32,10 @@
                 <h3>From <span class="green">S<span class="red">y</span>r<span class="red">i</span>a</span></h3>
                 <p>And I'm A Web Developer</p>
                 <div class="social-media">
-                    <a href="https://github.com/Lucky-Mo"><i class="bx bxl-github"></i></a>
-                    <a href="https://www.facebook.com/mohammad.othman.06/"><i class="bx bxl-facebook"></i></a>
-                    <a href="https://www.instagram.com/mootje_othman"><i class="bx bxl-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/muhammad-alothman-2155252b0"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://github.com/Lucky-Mo"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/mohammad.othman.06/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/mootje_othman"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/muhammad-alothman-2155252b0"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
@@ -57,7 +58,7 @@
                         <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
 
-                    <div class="tab-contents active-tabs" id="skills">
+                    <div class="tab-contents active-tab" id="skills">
                         <ul>
                             <li><span>Web Development </span>Web App Development</li>
                             <li><span>App Development </span>Designing web/app interfaces</li>
@@ -112,9 +113,42 @@
     </div>
         <!-- End About Section -->
 
+        <!-- Begin Services Section -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>abifubiuabfu iabfuibauf baubsfuibafsiubfuaifsb uiabfsauf bsiuab fsuiafbs iaufsb auisf bailAI BUFS</p>
+                        <a href="#home">Learn More</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>Web Design</h2>
+                        <p>abifubiuabfu iabfuibauf baubsfuibafsiubfuaifsb uiabfsauf bsiuab fsuiafbs iaufsb auisf bailAI BUFS</p>
+                        <a href="#home">Learn More</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Development</h2>
+                        <p>abifubiuabfu iabfuibauf baubsfuibafsiubfuaifsb uiabfsauf bsiuab fsuiafbs iaufsb auisf bailAI BUFS</p>
+                        <a href="#home">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End Services Section -->
+
+            <!-- -----------BeginPortfolio Section----------- -->
+             <div id="portfolio"></div>
+
         
 
-        <!-- Begin JavaScript -->
+        <!-- Begin JavaScript
+         this is for the tab functionality of the tabs (skills, Experience, Education) -->
         <script>
 
             var tablinks = document.getElementsByClassName("tab-links");
