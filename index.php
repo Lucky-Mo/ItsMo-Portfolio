@@ -16,7 +16,7 @@
     <div id="header">
         <div class="container">
             <nav>
-                <img href='#' src="images/portlogor.png" class="logo">
+                <img href='index.php' src="images/portlogor.png" class="logo">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -25,15 +25,14 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <!-- Begin Home Section -->
+            <!------------------------------- Begin Home Section ------------------------------->
             <div class="header-text">
                 <h1>Make Your Business Grow Faster</h1>
                 <h3>I'm <span class="red">Muhammad</span></h3>
-                <h3>From <span class="green">S<span class="red">y</span>r<span class="red">i</span>a</span></h3>
+                <h3>From <span>The Netherlands</span></h3>
                 <p>And I'm A Web Developer</p>
-                <div class="social-media">
+                <div class="social-icons">
                     <a href="https://github.com/Lucky-Mo"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.facebook.com/mohammad.othman.06/"><i class="fa-brands fa-facebook"></i></a>
                     <a href="https://www.instagram.com/mootje_othman"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://www.linkedin.com/in/muhammad-alothman-2155252b0"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
@@ -42,7 +41,7 @@
     </div>
              <!-- End Home Section -->
 
-             <!-- Begin About Section -->
+             <!------------------------------- Begin About Section ------------------------------->
     <div id="about">
         <div class="container">
             <div class="row">
@@ -113,41 +112,102 @@
     </div>
         <!-- End About Section -->
 
-        <!-- Begin Services Section -->
+        <!------------------------------- Begin Services Section ------------------------------->
         <div id="services">
             <div class="container">
                 <h1 class="sub-title">My Services</h1>
                 <div class="services-list">
                     <div>
-                        <i class="fa-solid fa-code"></i>
+                        <i class="fa-solid fa-code iconred"></i>
                         <h2>Web Development</h2>
                         <p>abifubiuabfu iabfuibauf baubsfuibafsiubfuaifsb uiabfsauf bsiuab fsuiafbs iaufsb auisf bailAI BUFS</p>
-                        <a href="#home">Learn More</a>
+                        <a href="projects.php">Learn More</a>
                     </div>
 
                     <div>
-                        <i class="fa-solid fa-crop-simple"></i>
+                        <i class="fa-solid fa-palette iconred"></i>
                         <h2>Web Design</h2>
                         <p>abifubiuabfu iabfuibauf baubsfuibafsiubfuaifsb uiabfsauf bsiuab fsuiafbs iaufsb auisf bailAI BUFS</p>
-                        <a href="#home">Learn More</a>
+                        <a href="projects.php">Learn More</a>
                     </div>
 
                     <div>
-                        <i class="fa-brands fa-app-store"></i>
+                        <i class="fa-brands fa-app-store iconred"></i>
                         <h2>App Development</h2>
                         <p>abifubiuabfu iabfuibauf baubsfuibafsiubfuaifsb uiabfsauf bsiuab fsuiafbs iaufsb auisf bailAI BUFS</p>
-                        <a href="#home">Learn More</a>
+                        <a href="projects.php">Learn More</a>
                     </div>
                 </div>
             </div>
             <!-- End Services Section -->
 
-            <!-- -----------BeginPortfolio Section----------- -->
-             <div id="portfolio"></div>
+            <!------------------------------- Begin Portfolio Section ------------------------------->
+             <div id="portfolio">
+                <div class="container">
+                    <h1 class="sub-title">My Work!</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="images/work-1.png">
+                            <div class="layer">
+                                <h3>Webshop App</h3>
+                                <p>The app iyasgciub ajs cika kjhsxkjisxh basdv</p>
+                                <a href="Projects.php"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/work-1.png">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>The app iyasgciub ajs cika kjhsxkjisxh basdv</p>
+                                <a href="Projects.php"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/work-1.png">
+                            <div class="layer">
+                                <h3>Music App</h3>
+                                <p>The app iyasgciub ajs cika kjhsxkjisxh basdv</p>
+                                <a href="Projects.php"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="projects.php" class="btn">See More</a>
+                </div>
+             </div>
+                <!-- End Portfolio Section -->
+
+        <!------------------------------- Begin Contact Section ------------------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p> <i class="fa-solid fa-paper-plane"></i>mdothman06@outlook.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+31 684603180</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/Lucky-Mo"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.facebook.com/mohammad.othman.06/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/mootje_othman"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/muhammad-alothman-2155252b0"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/MyCV.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright"></div>
+        </div>
 
         
 
-        <!-- Begin JavaScript
+        <!------------------------------- Begin JavaScript -----------------------------
          this is for the tab functionality of the tabs (skills, Experience, Education) -->
         <script>
 
