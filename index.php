@@ -17,13 +17,15 @@
         <div class="container">
             <nav>
                 <img href='index.php' src="images/portlogor.png" class="logo">
-                <ul>
+                <ul id="sidemenu">
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
             </nav>
             <!------------------------------- Begin Home Section ------------------------------->
             <div class="header-text">
@@ -202,7 +204,9 @@
                     </div>
                 </div>
             </div>
-            <div class="copyright"></div>
+            <div class="copyright">
+                <p>Copyright ©. Made with <i class="fa-solid fa-heart"></i> by Muhammad Alothman</p>
+            </div>
         </div>
 
         
@@ -225,6 +229,18 @@
                 
                 event.currentTarget.classList.add("active-link");
                 document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            var sideMenu = document.getElementById("sidemenu");
+
+            function openMenu(){
+                sideMenu.style.right = "0";
+            }
+
+            function closeMenu(){
+                sideMenu.style.right = "-200px";
             }
         </script>
 </body>
