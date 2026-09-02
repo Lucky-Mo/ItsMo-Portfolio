@@ -52,7 +52,11 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>iuEHFBLIUEWHF IUAWLEIUFBIULSA BDEFVLIUBS DLIUFVBCLID BVFCLIUbsadvli uBsldiubvLIUBS UBVD UISBDv UIBsdlivu BSibdVIB SDVUIBSvdlUIBsdvbUIB VBUsi vUIls bvIUBvsviuBivsudb sd vbiu</p>
+                    <p>Hi, I’m Muhammad, a Software Developer based in the Netherlands. I’m currently studying Software Development at Vista College Maastricht, where I’m building my skills in web development and learning how to turn ideas into functional, user-friendly websites and applications.
+
+I mainly work with HTML, CSS, JavaScript, PHP, and Python, with a particular interest in backend development and creating systems that work smoothly behind the scenes. I enjoy working on projects where I can combine problem-solving, creativity, and technology to build something useful.
+
+Outside of school and programming, I enjoy playing football, gaming, and exploring new technologies. I’m always looking to improve my skills, learn new tools, and challenge myself with new projects.</p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
@@ -61,29 +65,26 @@
 
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>Web Development </span>Web App Development</li>
-                            <li><span>App Development </span>Designing web/app interfaces</li>
-                            <li><span>Editing </span>Editing Photos & Videos</li>
+                            <li><span>Web Development </span>Developing personal and school projects using modern web technologies</li>
+                            <li><span>Backend Development </span>Creating functional systems, databases, and server-side features</li>
+                            <li><span>Teamwork </span>Collaborating on projects and taking responsibility for assigned tasks</li>
                         </ul>
                     </div>
 
                     <div class="tab-contents" id="experience">
                         <ul>
                             <li>
-                                <span>2027 - Current</span><br>
-                                Graduated from Vista College with a diploma in Software Development.
+                                <span>Current</span><br>
+                                Experienced in frontend development using HTML and CSS. Currently expanding my skills in PHP and JavaScript while developing my knowledge of backend development.
                             </li>
                             <li>
                                 <span>2026 - 2027</span><br>
-                                Web Development Training/Internship at Code Academy
-                            </li>
-                            <li>
-                                <span>2025 - 2026</span><br>
-                                Same as last year.
+                                Web Development Internship — Gaining practical experience in web development and applying my programming skills in a professional environment.
                             </li>
                             <li>
                                 <span>2024 - 2028</span><br>
-                                Studied Software Development at Vista-College in The Netherlands for 4 years. 
+                                Software Development — Vista College Maastricht, Netherlands
+                                Studying Software Development with a focus on web development, programming, and building practical software projects. 
                             </li>
                         </ul>
                     </div>
@@ -91,20 +92,16 @@
                     <div class="tab-contents" id="education">
                         <ul>
                             <li>
-                                <span>2027 - Current</span><br>
-                                Graduated from Vista College with a diploma in Software Development.
-                            </li>
-                            <li>
                                 <span>2026 - 2027</span><br>
-                                Web Development Training/Internship at Code Academy
+                                Web Development Internship.
                             </li>
                             <li>
-                                <span>2025 - 2026</span><br>
-                                Same as last year.
+                                <span>2024 - 2028</span><br>
+                                Studied Software Development at Vista-College Maastricht in The Netherlands. 
                             </li>
                             <li>
-                                <span>2024 - 2025</span><br>
-                                Started studying Software Development at Vista-College in The Netherlands. 
+                                <span>2019 - 2024</span><br>
+                                Studied at Graaf Huyn College in The Netherlands.
                             </li>
                         </ul>
                     </div>
@@ -122,21 +119,21 @@
                     <div>
                         <i class="fa-solid fa-code iconred"></i>
                         <h2>Web Development</h2>
-                        <p>abifubiuabfu iabfuibauf baubsfuibafsiubfuaifsb uiabfsauf bsiuab fsuiafbs iaufsb auisf bailAI BUFS</p>
+                        <p>Specializing in creating responsive and user-friendly websites using modern web technologies.</p>
                         <a href="projects.php">Learn More</a>
                     </div>
 
                     <div>
                         <i class="fa-solid fa-palette iconred"></i>
                         <h2>Web Design</h2>
-                        <p>abifubiuabfu iabfuibauf baubsfuibafsiubfuaifsb uiabfsauf bsiuab fsuiafbs iaufsb auisf bailAI BUFS</p>
+                        <p>Creating visually appealing and intuitive user interfaces for websites and applications.</p>
                         <a href="projects.php">Learn More</a>
                     </div>
 
                     <div>
                         <i class="fa-brands fa-app-store iconred"></i>
                         <h2>App Development</h2>
-                        <p>abifubiuabfu iabfuibauf baubsfuibafsiubfuaifsb uiabfsauf bsiuab fsuiafbs iaufsb auisf bailAI BUFS</p>
+                        <p>Developing cross-platform mobile applications with a focus on user experience and performance.</p>
                         <a href="projects.php">Learn More</a>
                     </div>
                 </div>
@@ -152,7 +149,7 @@
                             <img src="images/work-1.png">
                             <div class="layer">
                                 <h3>Webshop App</h3>
-                                <p>The app iyasgciub ajs cika kjhsxkjisxh basdv</p>
+                                <p>Click to go to the app!</p>
                                 <a href="Projects.php"><i class="fa-solid fa-up-right-from-square"></i></a>
                             </div>
                         </div>
@@ -160,7 +157,7 @@
                             <img src="images/work-1.png">
                             <div class="layer">
                                 <h3>Social Media App</h3>
-                                <p>The app iyasgciub ajs cika kjhsxkjisxh basdv</p>
+                                <p>Click to go to the app!</p>
                                 <a href="Projects.php"><i class="fa-solid fa-up-right-from-square"></i></a>
                             </div>
                         </div>
@@ -168,7 +165,7 @@
                             <img src="images/work-1.png">
                             <div class="layer">
                                 <h3>Music App</h3>
-                                <p>The app iyasgciub ajs cika kjhsxkjisxh basdv</p>
+                                <p>Click to go to the app!</p>
                                 <a href="Projects.php"><i class="fa-solid fa-up-right-from-square"></i></a>
                             </div>
                         </div>
