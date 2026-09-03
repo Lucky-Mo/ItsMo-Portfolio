@@ -1,0 +1,54 @@
+
+/* Remove margin, padding, and overflow from body and html */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;  /* Prevents scrollbars from appearing */
+  background-color: rgb(0, 0, 0);  /* Set background color to black */
+  height: 100%;
+  width: 100%;
+}
+
+/* Style the canvas to cover the entire viewport */
+canvas {
+  display: block;  /* Removes any gaps from inline elements */
+  width: 100vw;    /* Full viewport width */
+  height: 100vh;   /* Full viewport height */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .button {
+  box-shadow: 0 0 5px #4deeea;
+  transition: 1s;
+  background-color: #4deeea;
+  width: 200px;
+  height: 60px;
+  border: 1px solid white;
+  border-radius:20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.button:hover {
+  box-shadow: 0 0 5px #4deeea, 0 0 55px #4deeea, 0 0 80px #4deeea, 0 0 100px #4deeea;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+ } */

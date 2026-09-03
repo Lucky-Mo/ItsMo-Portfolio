@@ -1,0 +1,118 @@
+/* General reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #0c0c0c;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+/* Neon glow for buttons */
+.btn {
+  padding: 12px 25px;
+  background-color: #ae8957;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(174, 137, 87, 0.7), 0 0 20px rgba(174, 137, 87, 0.6);
+  transition: 0.4s;
+}
+
+.btn:hover {
+  box-shadow: 0 0 15px rgba(174, 137, 87, 0.9), 0 0 30px rgba(174, 137, 87, 0.8);
+  transform: scale(1.1);
+}
+
+/* Neon effect on text */
+h1, h2, h3 {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ae8957, 0 0 20px #ae8957;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 7%;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  height: 120px;
+}
+
+.logo{
+  font-size: 40px;
+  align-items: cenm/ter;
+}
+
+.navlist {
+  display: flex;
+  list-style: none;
+  left: 1100px;
+  position: relative;
+}
+
+.navlist a {
+  color: #fff;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navlist a:hover {
+  color: #ae8957;
+}
+
+#menu-icon {
+  position: relative;
+  display: none;
+  font-size: 30px;
+  color: #fff;
+  right: 50px;
+}
+
+/* Hero section */
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7%;
+  background: url('hero-image.jpg') center/cover no-repeat;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.hero-img img {
+  width: 25%;
+  border-radius: 95px;
+  margin: 30px;
+  left: 100px;
+}
+
+/* Dark themed sections */
+.dark-section {
+  background-color: #151515;
+  color: #fff;
+  padding: 60px 7%;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
