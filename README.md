@@ -16,3 +16,5 @@ calculator werkt niet
 testen?
 sim racing simulator?
 alle links?
+
+talen moeten werken
