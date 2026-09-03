@@ -1,5 +1,24 @@
 <?php
 
+// Choose language
+if (isset($_GET['lang']) && in_array($_GET['lang'], ['en', 'nl'])) {
+    $language = $_GET['lang'];
+
+    // Remember the selected language
+    setcookie('language', $language, time() + (365 * 24 * 60 * 60), '/');
+} elseif (isset($_COOKIE['language']) && in_array($_COOKIE['language'], ['en', 'nl'])) {
+    $language = $_COOKIE['language'];
+} else {
+    $language = 'en';
+}
+
+// Load language file
+$text = require __DIR__ . '/language/' . $language . '.php';
+
+?>
+
+<?php
+
 require_once 'projects-data.php';
 
 $projectsDirectory = __DIR__ . '/school-projects';
@@ -106,7 +125,7 @@ $featuredProjects = array_slice(
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?= $language ?>">
 
 <head>
     <meta charset="UTF-8">
@@ -120,17 +139,47 @@ $featuredProjects = array_slice(
 
 </head>
 <body>
+    <div id="construction-popup">
+        <div class="construction-popup-content">
+
+            <button class="construction-close" onclick="closeConstructionPopup()">
+                &times;
+            </button>
+
+            <div class="construction-icon">
+                🚧
+            </div>
+
+            <h2>Portfolio Under Construction</h2>
+
+            <p>
+                I'm currently working on my portfolio and adding new projects.
+                Some parts of the website may still be incomplete.
+            </p>
+
+            <button class="construction-btn" onclick="closeConstructionPopup()">
+                Continue to website
+            </button>
+
+        </div>
+    </div>
     <div id="header">
         <div class="container">
             <nav>
                 <img href='index.php' src="images/portlogor.png" class="logo">
                 <ul id="sidemenu">
                     <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#home"><?= $text['home'] ?></a></li>
+                    <li><a href="#about"><?= $text['about'] ?></a></li>
+                    <li><a href="#services"><?= $text['services'] ?></a></li>
+                    <li><a href="#portfolio"><?= $text['portfolio'] ?></a></li>
+                    <li><a href="#contact"><?= $text['contact'] ?></a></li>
+
+                    <li class="language-switcher">
+                        <a href="?lang=en">  EN  </a>
+                        <span>|</span>
+                        <a href="?lang=nl">  NL  </a>
+                    </li>
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openMenu()"></i>
             </nav>
@@ -158,7 +207,7 @@ $featuredProjects = array_slice(
                     <img src="images/portimg.png">
                 </div>
                 <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
+                    <h1 class="sub-title"><?= $text['about_me'] ?></h1>
                     <p>Hi, I’m Muhammad, a Software Developer based in the Netherlands. I’m currently studying Software Development at Vista College Maastricht, where I’m building my skills in web development and learning how to turn ideas into functional, user-friendly websites and applications.
 
 I mainly work with HTML, CSS, JavaScript, PHP, and Python, with a particular interest in backend development and creating systems that work smoothly behind the scenes. I enjoy working on projects where I can combine problem-solving, creativity, and technology to build something useful.
@@ -221,7 +270,7 @@ Outside of school and programming, I enjoy playing football, gaming, and explori
         <!------------------------------- Begin Services Section ------------------------------->
         <div id="services">
             <div class="container">
-                <h1 class="sub-title">My Services</h1>
+                <h1 class="sub-title"><?= $text['my_services'] ?></h1>
                 <div class="services-list">
                     <div>
                         <i class="fa-solid fa-code iconred"></i>
@@ -253,7 +302,7 @@ Outside of school and programming, I enjoy playing football, gaming, and explori
 
     <div class="container">
 
-        <h1 class="sub-title">My Work!</h1>
+        <h1 class="sub-title"><?= $text['my_work'] ?></h1>
 
         <div class="work-list">
 
@@ -294,9 +343,7 @@ Outside of school and programming, I enjoy playing football, gaming, and explori
 
         </div>
 
-        <a href="projects.php" class="btn">
-            See More
-        </a>
+        <a href="projects.php" class="btn"><?= $text['see_more'] ?></a>
 
     </div>
 
@@ -309,7 +356,7 @@ Outside of school and programming, I enjoy playing football, gaming, and explori
             <div class="container">
                 <div class="row">
                     <div class="contact-left">
-                        <h1 class="sub-title">Contact Me</h1>
+                        <h1 class="sub-title"><?= $text['contact_me'] ?></h1>
                         <p> <i class="fa-solid fa-paper-plane"></i>mdothman06@outlook.com</p>
                         <p><i class="fa-solid fa-phone"></i>+31 684603180</p>
                         <div class="social-icons">
@@ -367,6 +414,12 @@ Outside of school and programming, I enjoy playing football, gaming, and explori
 
             function closeMenu(){
                 sideMenu.style.right = "-200px";
+            }
+        </script>
+
+        <script>
+            function closeConstructionPopup() {
+                document.getElementById("construction-popup").style.display = "none";
             }
         </script>
 </body>
