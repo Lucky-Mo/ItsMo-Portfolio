@@ -302,7 +302,7 @@ Outside of school and programming, I enjoy playing football, gaming, and explori
 
     <div class="container">
 
-        <h1 class="sub-title"><?= $text['my_work'] ?></h1>
+        <h1 class="sub-title"><?= $text['my_projects'] ?></h1>
 
         <div class="work-list">
 
@@ -343,7 +343,7 @@ Outside of school and programming, I enjoy playing football, gaming, and explori
 
         </div>
 
-        <a href="projects.php" class="btn"><?= $text['see_more'] ?></a>
+        <a href="projects.php" class="btn"><?= $text['all_projects'] ?></a>
 
     </div>
 

@@ -9,8 +9,8 @@ return [
 
     'about_me' => 'Over mij',
     'my_services' => 'Mijn diensten',
-    'my_work' => 'Mijn werk!',
-    'see_more' => 'Bekijk meer',
+    'my_projects' => 'Mijn projecten',
+    'all_projects' => 'Alle projecten',
     'contact_me' => 'Neem contact op',
 
     'web_development' => 'Webontwikkeling',

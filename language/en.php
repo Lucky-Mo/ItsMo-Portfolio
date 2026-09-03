@@ -9,8 +9,8 @@ return [
 
     'about_me' => 'About Me',
     'my_services' => 'My Services',
-    'my_work' => 'My Work!',
-    'see_more' => 'See More',
+    'my_projects' => 'My Projects',
+    'all_projects' => 'All Projects',
     'contact_me' => 'Contact Me',
 
     'web_development' => 'Web Development',
