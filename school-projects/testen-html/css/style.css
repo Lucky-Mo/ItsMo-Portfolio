@@ -1,0 +1,64 @@
+#Blok1 {
+    background-color: gray;
+    width: 500px;
+    height: 500px;
+}
+
+#Blok2 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 0px;
+    left: 20px;
+}
+
+#Blok3 {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -100px;
+    left: 380px;
+}
+
+#Blok4 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 160px;
+    left: 20px;
+}
+
+#Blok5{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 60px;
+    left: 380px;
+}
+
+
+
+
+#gray {
+    background-color: gray;
+}
+
+#red {
+    background-color: rgb(255, 0, 0);
+}
+
+#yellow {
+    background-color: rgb(251, 255, 0);
+}
+
+#green {
+    background-color: rgb(43, 255, 0);
+}
+
+#blue {
+    background-color: rgb(0, 30, 255);
+}

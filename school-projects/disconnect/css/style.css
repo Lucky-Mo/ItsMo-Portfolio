@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+.container {
+  position: relative;
+}
+
+.text-top {
+  color: #1ac7a4;
+  font-size: 70px;
+  clip-path: inset(0% 0% 50% 0%);
+  position: relative;
+  top: 40px;
+  left: 40px;
+  animation: slideright 2.5s infinite ease-in-out;
+}
+
+.text-bottom {
+  color: #9648b4;
+  font-size: 70px;
+  clip-path: inset(50% 0% 0% 0%);
+  position: relative;
+  top: -40px;
+  left: 40px;
+  animation: slideleft 2.5s infinite ease-in-out;
+}
+
+.lijn {
+  width: 250px;
+  height: 2px;
+  background-color: black;
+  display: flex;
+}
+
+
+@keyframes slideright {
+  0% {transform: translateX(30px);}
+  50% {transform: translateX(-30px);}
+  100% {transform: translateX(30px);}
+}
+
+@keyframes slideleft {
+  0% {transform: translateX(-30px);}
+  50% {transform: translateX(30px);}
+  100% {transform: translateX(-30px);}  
+}

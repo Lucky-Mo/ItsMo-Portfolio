@@ -1,0 +1,729 @@
+body {
+  background-color: #1ea6b0;
+}
+
+
+#vliegtuigcontainer {
+  background-color: #ba8e8e00;
+  position: relative;
+  width: 420px;
+  height: 350px;
+  left: 700px; /* Zet het vliegtuig in het midden van het scherm */
+  top: -1000px;
+  animation: vliegtuigcontainer 6s linear infinite;
+  transform-origin: center 600px; /* Punt rond het eiland */
+}
+
+#balk2 {
+  width: 320px;
+  height: 50px;
+  background-color: #b3a6a6;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+  position: relative;
+  top: 74px;
+  left: 30px;
+  z-index: 10;
+}
+
+#balk1 {
+  width: 320px;
+  height: 50px;
+  background-color: #ab9797;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+  position: relative;
+  top: 150px;
+  left: 10px;
+  z-index: 11;
+}
+
+#driehoekboven {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 0 101px 101px;
+  border-color: transparent transparent #b3a6a6 transparent;
+  transform: rotate(0deg);
+  top: -72px;
+  left: 110px;
+  position: relative;
+}
+
+#driehoekonder {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 0 111px 111px;
+  border-color: transparent transparent #AB9797 transparent;
+  transform: rotate(270deg);
+  top: -30px;
+  left: 100px;
+  position: relative;
+}
+
+#staart {
+  width: 0px;
+  border-width: 0 0 111px 111px;
+  border-color: transparent transparent #AB9797 transparent;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 0 139px 139px;
+  border-color: transparent transparent #b3a6a6 transparent;
+  transform: rotate(0deg);
+  top: -252px;
+  left: 266px;
+  position: relative;
+}
+
+
+#raam1 {
+  width: 18px;
+  height: 18px;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  top: -320px;
+  left: 50px;
+  z-index: 99;
+}
+
+#deur {
+  width: 20px;
+  height: 50px;
+  background-color: black;
+  position: relative;
+  top: -339px;
+  left: 90px;
+  z-index: 99;
+}
+
+#raam2 {
+  width: 18px;
+  height: 18px;
+  background-color: black;
+  position: relative;
+  top: -390px;
+  left: 140px;
+  z-index: 99;
+}
+
+#raam3 {
+  width: 18px;
+  height: 18px;
+  background-color: black;
+  position: relative;
+  top: -409px;
+  left: 195px;
+  z-index: 99;
+}
+
+#raam4 {
+  width: 18px;
+  height: 18px;
+  background-color: black;
+  position: relative;
+  top: -426px;
+  left: 260px;
+  z-index: 99;
+}
+
+
+@keyframes vliegtuigcontainer {
+  0% {
+    transform: rotate(0deg) translateX(300px); /* Begin van de cirkel */
+  }
+
+  25% {
+    transform: rotate(-90deg) translateX(300px); /* Kwadrant */
+  }
+
+  50% {
+    transform: rotate(-180deg) translateX(300px); /* Halverwege */
+  }
+
+  75% {
+    transform: rotate(-270deg) translateX(300px); /* Derde kwadrant */
+  }
+
+  100% {
+    transform: rotate(-360deg) translateX(300px); /* Terug naar begin */
+  }
+}
+
+
+
+#wolkendoos1 {
+  width: 150px;
+  height: 100px;
+  border: red;
+  position: relative;
+  top: 100px;
+  left: 40px;
+  animation: wolk1 16s ease-in-out infinite;
+  transition: transform 0.5s ease-in-out;
+}
+
+#wolkendoos2 {
+  width: 150px;
+  height: 100px;
+  border: red;
+  position: relative;
+  top: 200px;
+  left: 500px;
+  animation: wolk2 13s ease-in-out infinite;
+  transition: transform 0.5s ease-in-out;
+}
+
+#wolkendoos3 {
+  width: 150px;
+  height: 100px;
+  border: red;
+  position: relative;
+  top: -150px;
+  left: 750px;
+  animation: wolk3 10s ease-in-out infinite;
+  transition: transform 0.5s ease-in-out;
+}
+
+#wolkendoos4 {
+  width: 150px;
+  height: 100px;
+  border: red;
+  position: relative;
+  top: 200px;
+  left: 80px;
+  animation: wolk4 14s ease-in-out infinite;
+  transition: transform 0.5s ease-in-out;
+}
+
+#wolkendoos5 {
+  width: 150px;
+  height: 100px;
+  border: red;
+  position: relative;
+  top: -220px;
+  left: 1500px;
+  animation: wolk5 14s ease-in-out infinite;
+  transition: transform 0.5s ease-in-out;
+}
+
+#wolkendoos6 {
+  width: 150px;
+  height: 100px;
+  border: red;
+  position: relative;
+  top: 100px;
+  left: 1400px;
+  animation: wolk6 13s ease-in-out infinite;
+  transition: transform 0.5s ease-in-out;
+}
+
+
+#wolklangdeel {
+  width: 150px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: white;
+  position: relative;
+  top: 50px;
+}
+
+
+#wolkkleinbolletje {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: white;
+  position: relative;
+  top: -37px;
+  left: 16px
+}
+
+#wolkgrootbolletje {
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  background-color: white;
+  position: relative;
+  top: -100px;
+  left: 56px;
+}
+
+
+#eilandcontainer {
+  width: 700px;
+  height: 400px;
+  margin: 0 auto;
+  top: -100px;
+  position: relative;
+  animation: eilandcontainer 4s ease-in-out infinite;
+  transition: transform 0.5s ease-in-out;
+}
+
+@keyframes eilandcontainer {
+  0% {
+    transform: translateY(-190px);
+  }
+
+  50% {
+    transform: translateY(-80px);
+  }
+
+  100% {
+    transform: translateY(-190px);
+  }
+}
+
+@keyframes wolk1 {
+  0% {
+    transform: translateX(-250px);
+  }
+
+  100% {
+    transform: translateX(2600px);
+  }
+}
+
+@keyframes wolk2 {
+  0% {
+    transform: translateX(-150px);
+  }
+
+  50% {
+    transform: translateX(1500px);
+  }
+
+  100% {
+    transform: translateX(-150px);
+  }
+}
+
+@keyframes wolk3 {
+  0% {
+    transform: translateX(-150px);
+  }
+
+  50% {
+    transform: translateX(1500px);
+  }
+
+  100% {
+    transform: translateX(-150px);
+  }
+}
+
+@keyframes wolk4 {
+  0% {
+    transform: translateX(-250px);
+  }
+
+  50% {
+    transform: translateX(1500px);
+  }
+
+  100% {
+    transform: translateX(-150px);
+  }
+}
+
+@keyframes wolk5 {
+  0% {
+    transform: translateX(-150px);
+  }
+
+  50% {
+    transform: translateX(-1800px);
+  }
+
+  100% {
+    transform: translateX(-150px);
+  }
+}
+
+@keyframes wolk6 {
+  0% {
+    transform: translateX(-100px);
+  }
+
+  50% {
+    transform: translateX(-1500px);
+  }
+
+  100% {
+    transform: translateX(-100px);
+  }
+}
+
+#eiland1 {
+  width: 700px;
+  height: 40px;
+  background: rgb(50, 144, 13);
+  background: linear-gradient(180deg, rgba(50, 144, 13, 1) 45%, rgba(108, 64, 12, 1) 71%);
+  border-radius: 20px;
+  position: relative;
+  margin: 0 auto;
+  border: solid;
+  border-top-width: 1px;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+#eiland2 {
+  width: 600px;
+  height: 40px;
+  background: rgb(144, 97, 13);
+  background: linear-gradient(180deg, rgba(108, 64, 12, 1) 38%, rgba(108, 64, 12, 1) 71%);
+  border-radius: 1000px;
+  position: relative;
+  margin: 0 auto;
+}
+
+#eiland3 {
+  width: 500px;
+  height: 40px;
+  background: rgb(115, 78, 57);
+  background: linear-gradient(180deg, rgba(108, 64, 12, 1) 50%, rgba(97, 97, 97, 1) 65%);
+  border-radius: 1000px;
+  position: relative;
+  margin: 0 auto;
+}
+
+#eiland4 {
+  width: 420px;
+  height: 40px;
+  background: rgb(97, 97, 97);
+  background: linear-gradient(180deg, rgb(84, 84, 84) 45%, rgb(74, 74, 74) 69%);
+  border-radius: 1000px;
+  position: relative;
+  margin: 0 auto;
+}
+
+#eiland5 {
+  width: 350px;
+  height: 40px;
+  background: rgb(65, 65, 65);
+  background: linear-gradient(180deg, rgb(74, 74, 74) 5%, rgb(41, 41, 41) 90%);
+  border-radius: 1000px;
+  position: relative;
+  margin: 0 auto;
+}
+
+#bergen {
+
+  width: 700px;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+#berg1 {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 93.5px 239px 93.5px;
+  border-color: transparent transparent #404040 transparent;
+  transform: rotate(0deg);
+  position: relative;
+  margin: 0 auto;
+
+}
+
+#berg2 {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 42px 109px 52px;
+  border-color: transparent transparent #404040 transparent;
+  transform: rotate(0deg);
+  position: relative;
+  top: -138px;
+  left: 181px;
+}
+
+#berg3 {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 73px 160px 73px;
+  border-color: transparent transparent #404040 transparent;
+  transform: rotate(0deg);
+  position: relative;
+  top: -277px;
+  left: 210px;
+}
+
+#berg4 {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 73px 160px 73px;
+  border-color: transparent transparent #404040 transparent;
+  transform: rotate(0deg);
+  position: relative;
+  top: -440px;
+  left: 347px;
+}
+
+#berg5 {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 42px 109px 52px;
+  border-color: transparent transparent #404040 transparent;
+  transform: rotate(0deg);
+  position: relative;
+  top: -571px;
+  left: 418px;
+}
+
+#sneeuw {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 21px 56px 21px;
+  border-color: transparent transparent #FFFFFF transparent;
+  transform: rotate(0deg);
+  position: relative;
+  margin: 0 auto;
+  top: -776px;
+}
+
+#boomstam1 {
+  width: 18px;
+  height: 47px;
+  background-color: rgb(98, 54, 17);
+  position: relative;
+  top: -678px;
+  left: 40px;
+
+}
+
+#boomstam2 {
+  width: 18px;
+  height: 47px;
+  background-color: rgb(98, 54, 17);
+  position: relative;
+  top: -724px;
+  left: 120px;
+}
+
+#boomstam3 {
+  width: 18px;
+  height: 47px;
+  background-color: rgb(98, 54, 17);
+  position: relative;
+  top: -770px;
+  left: 550px;
+}
+
+#boomstam4 {
+  width: 18px;
+  height: 47px;
+  background-color: rgb(98, 54, 17);
+  position: relative;
+  top: -817px;
+  left: 640px;
+}
+
+#boomblad1_1 {
+  width: 30px;
+  height: 10px;
+  background-color: green;
+  position: relative;
+  border: none;
+  top: -875px;
+  left: 34px;
+}
+
+#boomblad2_1 {
+  width: 45px;
+  height: 13px;
+  background-color: green;
+  position: relative;
+  border: none;
+  top: -895px;
+  left: 27px;
+}
+
+#boomblad3_1 {
+  width: 30px;
+  height: 10px;
+  background-color: green;
+  position: relative;
+  border: none;
+  top: -917px;
+  left: 34px;
+}
+
+#boomblad1_2 {
+  width: 30px;
+  height: 10px;
+  background-color: green;
+  position: relative;
+  border: none;
+  top: -907px;
+  left: 113px;
+}
+
+#boomblad2_2 {
+  width: 45px;
+  height: 13px;
+  background-color: green;
+  position: relative;
+  border: none;
+  top: -928px;
+  left: 105px;
+}
+
+#boomblad3_2 {
+  width: 30px;
+  height: 10px;
+  background-color: green;
+  position: relative;
+  border: none;
+  top: -950px;
+  left: 114px;
+}
+
+#boomblad1_3 {
+  width: 30px;
+  height: 10px;
+  background-color: green;
+  position: relative;
+  border: none;
+  top: -940px;
+  left: 544px;
+}
+
+#boomblad2_3 {
+  width: 45px;
+  height: 13px;
+  background-color: green;
+  position: relative;
+  border: none;
+  top: -963px;
+  left: 537px;
+}
+
+#boomblad3_3 {
+  width: 30px;
+  height: 10px;
+  background-color: green;
+  position: relative;
+  border: none;
+  top: -986px;
+  left: 544px;
+}
+
+#boomblad1_4 {
+  width: 30px;
+  height: 10px;
+  background-color: green;
+  position: relative;
+  border: none;
+  top: -973px;
+  left: 634px;
+}
+
+#boomblad2_4 {
+  width: 45px;
+  height: 13px;
+  background-color: green;
+  position: relative;
+  border: none;
+  top: -996px;
+  left: 627px;
+}
+
+#boomblad3_4 {
+  width: 30px;
+  height: 10px;
+  background-color: green;
+  position: relative;
+  border: none;
+  top: -1019px;
+  left: 634px;
+}
+
+.day {
+  position: relative;
+  top: -200px;
+}
+
+.button_day {
+  background-color: rgb(2, 134, 248);
+  color: white;
+  border: none;
+  border-radius: 18px;
+  height: 36px;
+  width: 74px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: box-shadow 0.25s;
+  vertical-align: top;
+}
+
+
+.button_night {
+  background-color: rgb(2, 134, 248);
+  color: white;
+  border: none;
+  border-radius: 18px;
+  height: 36px;
+  width: 74px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: box-shadow
+}
+
+.button_night,
+button_day {
+  opacity: 0.8;
+}
+
+.button_night:active {
+  opacity: 0.4;
+}
+
+body {
+  transition: 1.5s;
+}
+
+.night-toggle {
+  width: 33px;
+  height: 33px;
+  left: 50px;
+  top: 40px;
+  position: fixed;
+}
+
+.night-toggle:hover {
+  cursor: pointer;
+}
+
+.moon {
+  background-color: transparent;
+  box-shadow: -6px 1px 0 3px #275e8e;
+  border-left: 3px solid #27476D;
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+  margin-left: 8px;
+  margin-top: 0px;
+  transition: 2s;
+}
+
+.sun {
+  background-color: #fdd462;
+  box-shadow: 2px 0px 0px 1px #D19C29;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  transition: 2s;
+}

@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.container1 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 1;
+  text-transform: uppercase;
+  position: relative;
+  color: #8A2BE2;
+  top: -100px;
+}
+
+.container2 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 1;
+  text-transform: uppercase;
+  position: relative;
+  color: #8A2BE2;
+
+}
+
+.container3 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 1;
+  text-transform: uppercase;
+  position: relative;
+  color: #8A2BE2;
+top: 100px;
+}
+
+.lijn{
+  background-color: black;
+  width: 700px;
+  height: 2px;
+  top: 39px;
+  left: -30px;
+  position: relative;
+  width: 400px;
+}
+
+.top, .bottom {
+  position: absolute;
+  left: 0;
+}
+
+
+.top {
+  clip-path: inset(0 0 50% 0); 
+  color: #20B2AA;
+  animation: move 3s ease-in-out infinite alternate;
+  
+}
+
+
+.bottom {
+  clip-path: inset(50% 0 0 0); 
+  color: #8A2BE2;
+  animation: move 3s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}

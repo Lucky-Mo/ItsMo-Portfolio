@@ -7,3 +7,12 @@ Now I can use both my laptop and pc for this same project!!
 
 To do!
 Services icons stays red after hovering.
+
+School projects:
+lampje werkt niet
+fashion with a view (fwav) is er niet
+calculator werkt niet
+
+testen?
+sim racing simulator?
+alle links?

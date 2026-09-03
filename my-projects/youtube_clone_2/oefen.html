@@ -1,0 +1,150 @@
+<style>
+  .Back {
+    color: rgb(0, 76, 99);
+    font-size: 18px;
+  }
+
+  .Back:hover {
+    color: rgb(186, 5, 5);
+  }
+
+  .stock {
+    color: green;
+    font-weight: bold;
+  }
+
+  .Cart {
+    background-color: yellow;
+    border: solid;
+    border-radius: 12px;
+    border-color: black;
+    border-width: 0.1px;
+    width: 100px;
+    height: 24px;
+    cursor: pointer;
+  }
+
+  .Cart:hover {
+    background-color: rgb(255, 230, 0);
+  }
+
+  .Cart:active {
+    opacity: 0.7;
+  }
+
+  .Buy {
+    background-color: orange;
+    border-width: 0.1px;
+    border-color: rgb(29, 14, 0);
+    border-radius: 12px;
+    border-style: solid;
+    width: 100px;
+    height: 24px;
+    cursor: pointer;
+  }
+
+  .Buy:hover {
+    background-color: rgb(249, 116, 0);
+  }
+
+  .Buy:active {
+    opacity: 0.8;
+  }
+
+
+  .Stretch {
+    background-color: green;
+    border-radius: 4px;
+    border-style: none;
+    border-width: 1px;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 8px 15px 8px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: padding-top 1s,
+      padding-bottom 1s,
+      padding-left 1s,
+      padding-right 1s;
+  }
+
+  .Stretch:hover {
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  
+
+  .Shadow {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 15px 8px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .Shadow:active {
+    box-shadow: none;
+    margin-top: 3px;
+    margin-left: 3px;
+  }
+/* This is for the 3 buttons with 1, 2 and 3 */
+  .One {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+
+    border-style: none;
+    border-radius: 3px;
+
+    padding: 8px 15px 8px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    transition: padding 0.25s, margin 0.25;
+
+  }
+
+  .One:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+</style>
+
+<a href="https://www.amazon.nl" class="Back">Back to Amazon</a>
+
+<h2>Nike Black Running Shoes</h2>
+<p class="stock">$39 - in stock.</p>
+<p>Free delivery tomorrow.</p>
+<button type="button" onclick="location.href='https://www.amazon.nl'" class="Cart">Add to Cart</button>
+<button type="button" onclick="location.href='https://www.amazon.nl'" class="Buy" >Buy Now</button>
+
+
+<button>Back</button>
+<a href="https://www.google.com" target="_blank">1</a>
+<a href="">2</a>
+<a href="">3</a>
+<a href="">4</a>
+<a href="">5</a>
+<button>Next</button><br>
+
+<button class="Stretch">
+  Stretch
+</button>
+
+<button class="Shadow">
+  shadow
+</button>
+
+<button class="One">One</button>
+<button class="One">Two</button>
+<button class="One">Three</button>

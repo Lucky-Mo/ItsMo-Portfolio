@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Smoesjesbox</title>
+</head>
+<body>
+
+    <img id="foto-links" src="Images/R.jpeg">
+    <img id="foto-recht" src="Images/maxresdefault.jpg" alt="">
+
+    <!-- Cloud Containers -->
+    <div id="wolkendoos1">
+        <div id="wolklangdeel"></div>
+        <div id="wolkkleinbolletje"></div>
+        <div id="wolkgrootbolletje"></div>
+    </div>
+
+    <div id="wolkendoos2">
+        <div id="wolklangdeel"></div>
+        <div id="wolkkleinbolletje"></div>
+        <div id="wolkgrootbolletje"></div>
+    </div>
+
+    <div id="wolkendoos3">
+        <div id="wolklangdeel"></div>
+        <div id="wolkkleinbolletje"></div>
+        <div id="wolkgrootbolletje"></div>
+    </div>
+
+    <div id="wolkendoos4">
+        <div id="wolklangdeel"></div>
+        <div id="wolkkleinbolletje"></div>
+        <div id="wolkgrootbolletje"></div>
+    </div>
+
+    <div id="wolkendoos5">
+        <div id="wolklangdeel"></div>
+        <div id="wolkkleinbolletje"></div>
+        <div id="wolkgrootbolletje"></div>
+    </div>
+
+    <div id="wolkendoos6">
+        <div id="wolklangdeel"></div>
+        <div id="wolkkleinbolletje"></div>
+        <div id="wolkgrootbolletje"></div>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="frame"><span>SmoesjesBox!</span>
+        <div style="text-align: center;">
+            <div class="floating-text">
+                smoesjesbox.nl
+            </div>
+            <br>Beschrijf je probleem en smoesjesbox verzint een smoes!
+            <br>
+            <input type="text" id="questionbox" size="100" value="">
+            <br><br>
+            <div id="outputDiv"></div>
+            <br>
+            
+            <!-- Yes and No buttons -->
+            <button id="yesBtn" class="custom-btn btn-6"><span>Verzin een smoes!</span></button>
+            <button id="noBtn" class="custom-btn btn-6"><span>Ik heb mijn huiswerk gemaakt!</span></button>
+        </div>
+    </div>
+
+    <!-- Include the Canvas Confetti library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+    <script>
+        // Array: const cars = ["Saab", "Volvo", "BMW"];
+        // Objects: const car = {type:"Fiat", model:"500", color:"white"};
+        
+        const smoesjes =[
+            'Je staat in de file',
+            'Je hond heeft het opgegeten',
+            'Je bent ziek',
+            'Je hebt 40 graden koorts',
+            'Je moeder heeft zich verslapen',
+            'De kat heeft overal gepoept',
+            'De vogel is ontsnapt',
+            'Je hebt vergeten te tanken',
+            'Je hebt je voor het eerst in je leven verslapen',
+        ];
+
+        const yesBtn = document.getElementById('yesBtn');
+        const noBtn = document.getElementById('noBtn');
+        const outputDiv = document.getElementById('outputDiv');
+        const frame = document.querySelector('.frame');
+        
+        // Function to trigger confetti
+function triggerConfetti() {
+    confetti({
+        particleCount: 900,
+        spread: 920,
+        origin: { y: 0.6 }
+    });
+}
+
+// Event listener for the "Yes" button
+yesBtn.addEventListener('click', () => {
+    // Generate random excuse
+    const randomIndex = Math.floor(Math.random() * smoesjes.length);
+    outputDiv.textContent = smoesjes[randomIndex];
+
+    // Trigger confetti
+    triggerConfetti();
+});
+
+// Event listener for the "No" button
+noBtn.addEventListener('click', () => {
+    // You can choose to display something different or keep it the same
+    outputDiv.textContent = 'Goedzoooooo je hebt toch je huiswerk gemaakt!';
+
+    // Trigger confetti
+    triggerConfetti();
+});
+
+// Make the "No" button move around on hover
+noBtn.addEventListener('mouseover', () => {
+    const frameRect = frame.getBoundingClientRect();
+    const noBtnRect = noBtn.getBoundingClientRect();
+
+    const randomX = Math.floor(Math.random() * (frameRect.width - noBtnRect.width));
+    const randomY = Math.floor(Math.random() * (frameRect.height - noBtnRect.height));
+
+    noBtn.style.position = 'absolute';
+    noBtn.style.left = randomX + 'px';
+    noBtn.style.top = randomY + 'px';
+});
+    </script>
+</body>
+</html>

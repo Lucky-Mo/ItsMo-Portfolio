@@ -1,0 +1,168 @@
+body {
+  display: flex;
+  height: 700px;
+  background-color: rgb(43, 0, 124);
+}
+
+
+
+
+
+.container {
+  margin: 0 auto;
+  top: 20%;
+  position: relative;
+  animation: zweven 3s ease-in-out infinite;
+  transition: transform 1s ease-in-out;
+  height: 300px;
+  width: 200px;
+}
+
+@keyframes zweven {
+  0% {transform: translateY(0px);}
+
+  50% {transform: translateY(100px);}
+}
+
+.cirkel1 {
+  border: 5px solid;
+  border-color: green;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  position: relative;
+  z-index: 10;
+  top: 199px;
+  left: 9px;
+  clip-path: inset(0% 0% 50% 50%);
+}
+
+.cirkel2 {
+  border: 5px solid;
+  border-color: green;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  position: relative;
+  z-index: 10;
+  top: 159px;
+  left: 90px;
+  clip-path: inset(0% 50% 50% 0%);
+}
+
+.cirkel3 {
+  border: 7px solid;
+  border-color: rgb(255, 145, 0);
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  position: relative;
+  z-index: 10;
+  top: 323px;
+  left: 21px;
+  clip-path: inset(0% 50% 50% 0%);
+}
+
+.cirkel4 {
+  border: 7px solid;
+  border-color: rgb(255, 145, 0);
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  position: relative;
+  z-index: 10;
+  top: 280px;
+  left: 75px;
+  clip-path: inset(0% 0% 50% 50%);
+}
+
+.bolletje1 {
+  width: 12px;
+  height: 12px;
+  background-color: green;
+  border-radius: 100%;
+  position: relative;
+  top: -223px;
+  left: 22px;
+}
+
+.bolletje2 {
+  width: 12px;
+  height: 12px;
+  background-color: green;
+  border-radius: 100%;
+  position: relative;
+  top: -233px;
+  left: 104px;
+}
+
+.glas {
+  background-color: rgb(255, 255, 255);
+  border-radius: 300px;
+  width: 138px;
+  height: 250px;
+  position: relative;
+  
+}
+
+.rand {
+  background-color: rgb(255, 208, 0);
+  height: 20px;
+  position: relative;
+  top: 172px;
+}
+
+.onderkant {
+  background-color: rgb(255, 145, 0);
+  height: 60px;
+  top: 172px;
+  position: relative;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+}
+
+.alien {
+  background-color: green;
+  width: 105px;
+  height: 130px;
+  margin: 0 auto;
+  top: -38px;
+  position: relative;
+  border-top-right-radius: 300px;
+  border-top-left-radius: 300px;
+}
+
+.oogbal {
+  width: 65px;
+  height: 63px;
+  border: 3px solid;
+  border-radius: 100%;
+  background-color: aliceblue;
+  margin: 0 auto;
+  top: -13px;
+  position: relative;
+}
+
+.oog {
+  border: 5px solid;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  margin: 0 auto;
+  position: relative;
+  top: 14px;
+  clip-path: inset(0 0 50% 0);
+  background-color: white;
+}
+
+.mond {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(1, 70, 1);
+  opacity: 0.8;
+  margin: 0 auto;
+  position: relative;
+  top: 88px;
+  border-radius: 30px;
+  clip-path: inset(44% 0 0 0);
+}

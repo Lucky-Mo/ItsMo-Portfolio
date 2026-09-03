@@ -1,0 +1,1369 @@
+.inline {
+  display: inline-block;
+}
+
+.blok {
+  width: 50px;
+  height: 55px;
+  border-style: solid;
+  margin-left: -7px;
+  margin-bottom: -7px;
+  position: relative;
+  left: 600px;
+}
+
+#blok1_1 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok2_1 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok3_1 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok4_1 {
+  background-color: red;
+}
+
+#blok5_1 {
+  background-color: red;
+}
+
+#blok6_1 {
+  background-color: red;
+}
+
+#blok7_1 {
+  background-color: red;
+}
+
+#blok8_1 {
+  background-color: red;
+}
+
+#blok9_1 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok10_1 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok11_1 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok12_1 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+/* rij2 */
+
+#blok1_2 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok2_2 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok3_2 {
+  background-color: rgb(255, 0, 0);
+}
+
+#blok4_2 {
+  background-color: red;
+}
+
+#blok5_2 {
+  background-color: red;
+}
+
+#blok6_2 {
+  background-color: red;
+}
+
+#blok7_2 {
+  background-color: red;
+}
+
+#blok8_2 {
+  background-color: red;
+}
+
+#blok9_2 {
+  background-color: rgb(255, 0, 0);
+}
+
+#blok10_2 {
+  background-color: rgb(255, 0, 0);
+}
+
+#blok11_2 {
+  background-color: rgb(255, 0, 0);
+}
+
+#blok12_2 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+/* rij 3 */
+
+#blok1_3 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok2_3 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok3_3 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok4_3 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok5_3 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok6_3 {
+  background-color: rgb(255, 197, 140);
+
+}
+
+#blok7_3 {
+  background-color: rgb(255, 197, 140);
+
+}
+
+#blok8_3 {
+  background-color: rgb(0, 0, 0);
+}
+
+#blok9_3 {
+  background-color: rgb(255, 197, 140);
+
+}
+
+#blok10_3 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok11_3 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok12_3 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+/* rij4  */
+
+#blok1_4 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok2_4 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok3_4 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok4_4 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok5_4 {
+  background-color: rgb(255, 197, 140);
+
+}
+
+#blok6_4 {
+  background-color: rgb(255, 197, 140);
+
+}
+
+#blok7_4 {
+  background-color: rgb(255, 197, 140);
+
+}
+
+#blok8_4 {
+  background-color: rgb(0, 0, 0);
+}
+
+#blok9_4 {
+  background-color: rgb(255, 197, 140);
+
+}
+
+#blok10_4 {
+  background-color: rgb(255, 197, 140);
+
+}
+
+#blok11_4 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok12_4 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+/* rij 5 */
+
+#blok1_5 {
+  background-color: white;
+}
+
+#blok2_5 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok3_5 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok4_5 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok5_5 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok6_5 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok7_5 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok8_5 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok9_5 {
+  background-color: rgb(0, 0, 0);
+}
+
+#blok10_5 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok11_5 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok12_5 {
+  background-color: rgb(255, 197, 140);
+}
+
+/* rij 6 */
+
+#blok1_6 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok2_6 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok3_6 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok4_6 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok5_6 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok6_6 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok7_6 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok8_6 {
+  background-color: rgb(0, 0, 0);
+}
+
+#blok9_6 {
+  background-color: rgb(0, 0, 0);
+}
+
+#blok10_6 {
+  background-color: rgb(0, 0, 0);
+}
+
+#blok11_6 {
+  background-color: rgb(0, 0, 0);
+}
+
+#blok12_6 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+/* rij 7 */
+
+#blok1_7 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok2_7 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok3_7 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok4_7 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok5_7 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok6_7 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok7_7 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok8_7 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok9_7 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok10_7 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok11_7 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok12_7 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+/* rij8 */
+
+#blok1_8 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok2_8 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok3_8 {
+  background-color: red
+}
+
+#blok4_8 {
+  background-color: red;
+}
+
+#blok5_8 {
+  background-color: blue;
+}
+
+#blok6_8 {
+  background-color: red;
+}
+
+#blok7_8 {
+  background-color: red;
+}
+
+#blok8_8 {
+  background-color: red;
+}
+
+#blok9_8 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok10_8 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok11_8 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok12_8 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+/* rij 9 */
+
+#blok1_9 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok2_9 {
+  background-color: rgb(255, 0, 0);
+}
+
+#blok3_9 {
+  background-color: rgb(255, 0, 0);
+}
+
+#blok4_9 {
+  background-color: red;
+}
+
+#blok5_9 {
+  background-color: blue;
+}
+
+#blok6_9 {
+  background-color: red;
+}
+
+#blok7_9 {
+  background-color: red;
+}
+
+#blok8_9 {
+  background-color: blue;
+}
+
+#blok9_9 {
+  background-color: red;
+}
+
+#blok10_9 {
+  background-color: red;
+}
+
+#blok11_9 {
+  background-color: red;
+}
+
+#blok12_9 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+/* rij10 */
+
+#blok1_10 {
+  background-color: red;
+}
+
+#blok2_10 {
+  background-color: red;
+}
+
+#blok3_10 {
+  background-color: red;
+}
+
+#blok4_10 {
+  background-color: red;
+}
+
+#blok5_10 {
+  background-color: blue;
+}
+
+#blok6_10 {
+  background-color: blue;
+}
+
+#blok7_10 {
+  background-color: blue;
+}
+
+#blok8_10 {
+  background-color: blue;
+}
+
+#blok9_10 {
+  background-color: red;
+}
+
+#blok10_10 {
+  background-color: red;
+}
+
+#blok11_10 {
+  background-color: red;
+}
+
+#blok12_10 {
+  background-color: red;
+}
+
+/* rij11 */
+
+#blok1_11 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok2_11 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok3_11 {
+  background-color: red;
+}
+
+#blok4_11 {
+  background-color: blue;
+}
+
+#blok5_11 {
+  background-color: yellow;
+}
+
+#blok6_11 {
+  background-color: blue;
+}
+
+#blok7_11 {
+  background-color: blue;
+}
+
+#blok8_11 {
+  background-color: yellow;
+}
+
+#blok9_11 {
+  background-color: blue;
+}
+
+#blok10_11 {
+  background-color: red;
+}
+
+#blok11_11 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok12_11 {
+  background-color: rgb(255, 197, 140);
+}
+
+/* rij12 */
+
+#blok1_12 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok2_12 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok3_12 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok4_12 {
+  background-color: blue;
+}
+
+#blok5_12 {
+  background-color: blue;
+}
+
+#blok6_12 {
+  background-color: blue;
+}
+
+#blok7_12 {
+  background-color: blue;
+}
+
+#blok8_12 {
+  background-color: blue;
+}
+
+#blok9_12 {
+  background-color: blue
+}
+
+#blok10_12 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok11_12 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok12_12 {
+  background-color: rgb(255, 197, 140);
+}
+
+/* rij13 */
+
+#blok1_13 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok2_13 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok3_13 {
+  background-color: blue;
+}
+
+#blok4_13 {
+  background-color: blue;
+}
+
+#blok5_13 {
+  background-color: blue;
+}
+
+#blok6_13 {
+  background-color: blue;
+}
+
+#blok7_13 {
+  background-color: blue;
+}
+
+#blok8_13 {
+  background-color: blue;
+}
+
+#blok9_13 {
+  background-color: blue;
+}
+
+#blok10_13 {
+  background-color: blue;
+}
+
+#blok11_13 {
+  background-color: rgb(255, 197, 140);
+}
+
+#blok12_13 {
+  background-color: rgb(255, 197, 140);
+}
+
+/* rij14 */
+
+#blok1_14 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok2_14 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok3_14 {
+  background-color: blue;
+}
+
+#blok4_14 {
+  background-color: blue;
+}
+
+#blok5_14 {
+  background-color: blue;
+}
+
+#blok6_14 {
+  background-color: white;
+                                                                                                             }
+
+#blok7_14 {
+  background-color: white;
+}
+
+#blok8_14 {
+  background-color: blue;
+}
+
+#blok9_14 {
+  background-color: blue;
+}
+
+#blok10_14 {
+  background-color: blue;
+}
+
+#blok11_14 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok12_14 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+/* rij15 */
+
+#blok1_15 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#blok2_15 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok3_15 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok4_15 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok5_15 {
+  background-color: white;
+}
+
+#blok6_15 {
+  background-color: white;
+}
+
+#blok7_15 {
+  background-color: white;
+}
+
+#blok8_15 {
+  background-color: white;
+}
+
+#blok9_15 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok10_15 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok11_15 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok12_15 {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+/* rij16 */
+
+#blok1_16 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok2_16 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok3_16 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok4_16 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok5_16 {
+  background-color: white;
+}
+
+#blok6_16 {
+  background-color: white;
+
+}
+
+#blok7_16 {
+  background-color: white;
+}
+
+#blok8_16 {
+  background-color: white;
+}
+
+#blok9_16 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok10_16 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok11_16 {
+  background-color: rgb(182, 84, 19);
+}
+
+#blok12_16 {
+  background-color: rgb(182, 84, 19);
+}
+
+
+@media only screen and (max-width: 2500px) {
+
+  #blok8_3 {
+    background-color: rgb(255, 0, 0);
+  }
+
+  #blok8_4 {
+    background-color: rgb(255, 0, 0);
+  }
+  #blok4_1 {
+    background-color: rgb(0, 255, 0);
+  }
+  
+  #blok5_1 {
+    background-color: rgb(0, 255, 0);
+  }
+  
+  #blok6_1 {
+    background-color: rgb(0, 255, 0);
+  }
+  
+  #blok7_1 {
+    background-color: rgb(0, 255, 0);
+  }
+  
+  #blok8_1 {
+    background-color: rgb(0, 255, 0);
+  }
+  
+
+  #blok3_2 {
+    background-color:  rgb(0, 255, 0);
+  }
+  
+  #blok4_2 {
+    background-color: rgb(0, 255, 0);
+  }
+  
+  #blok5_2 {
+    background-color: rgb(0, 255, 0);
+  }
+  
+  #blok6_2 {
+    background-color: rgb(0, 255, 0);
+  }
+  
+  #blok7_2 {
+    background-color: rgb(0, 255, 0);
+  }
+  
+  #blok8_2 {
+    background-color: rgb(0, 255, 0);
+  }
+  
+  #blok9_2 {
+    background-color: rgb(0, 255, 0);
+  }
+  
+  #blok10_2 {
+    background-color: rgb(0, 255, 0);
+  }
+  
+  #blok11_2 {
+    background-color: rgb(0, 255, 0);
+  }
+
+  #blok3_8 {
+    background-color:  rgb(0, 255, 0);
+  }
+  
+  #blok4_8 {
+    background-color:  rgb(0, 255, 0);
+  }
+  
+  #blok6_8 {
+    background-color:  rgb(0, 255, 0);
+  }
+  
+  #blok7_8 {
+    background-color:  rgb(0, 255, 0);
+  }
+  
+  #blok8_8 {
+    background-color:  rgb(0, 255, 0);
+  }
+
+  #blok2_9 {
+    background-color:  rgb(0, 255, 0);
+  }
+  
+  #blok3_9 {
+    background-color:  rgb(0, 255, 0);
+  }
+  
+  #blok4_9 {
+    background-color:  rgb(0, 255, 0);
+  }
+
+  #blok6_9 {
+    background-color:  rgb(0, 255, 0);
+  }
+  
+  #blok7_9 {
+    background-color:  rgb(0, 255, 0);
+  }
+  
+  #blok9_9 {
+    background-color:  rgb(0, 255, 0);
+  }
+  
+  #blok10_9 {
+    background-color:  rgb(0, 255, 0);
+  }
+  
+  #blok11_9 {
+    background-color:  rgb(0, 255, 0);
+  }
+  
+ 
+  /* rij10 */
+  
+  #blok1_10 {
+    background-color:  rgb(0, 255, 0);
+  }
+  
+  #blok2_10 {
+    background-color:  rgb(0, 255, 0);
+  }
+  
+  #blok3_10 {
+    background-color:  rgb(0, 255, 0);
+  }
+  
+  #blok4_10 {
+    background-color:  rgb(0, 255, 0);
+  }
+  
+  #blok9_10 {
+    background-color:  rgb(0, 255, 0);
+  }
+  
+  #blok10_10 {
+    background-color:  rgb(0, 255, 0);
+  }
+  
+  #blok11_10 {
+    background-color:  rgb(0, 255, 0);
+  }
+  
+  #blok12_10 {
+    background-color:  rgb(0, 255, 0);
+  }
+  
+  /* rij11 */
+  
+  #blok3_11 {
+    background-color: rgb(0, 255, 0);
+  }
+  #blok10_11 {
+    background-color: rgb(0, 255, 0);
+  }
+
+
+
+
+  #blok6_3 {
+    background-color: rgb(230, 172, 115);
+  
+  }
+  
+  #blok7_3 {
+    background-color: rgb(230, 172, 115);
+  
+  }
+
+  #blok9_3 {
+    background-color: rgb(230, 172, 115);
+  
+  }
+
+  #blok3_4 {
+    background-color: rgb(230, 172, 115);
+  }
+
+  #blok5_4 {
+    background-color: rgb(230, 172, 115);
+  
+  }
+  
+  #blok6_4 {
+    background-color: rgb(230, 172, 115);
+  
+  }
+  
+  #blok7_4 {
+    background-color: rgb(230, 172, 115);
+  
+  }
+  
+  
+  #blok9_4 {
+    background-color: rgb(230, 172, 115);
+  
+  }
+  
+  #blok10_4 {
+    background-color: rgb(230, 172, 115);
+  
+  }
+  #blok3_5 {
+    background-color: rgb(230, 172, 115);
+  }
+
+#blok6_5 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok7_5 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok8_5 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok10_5 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok11_5 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok12_5 {
+  background-color: rgb(230, 172, 115);
+}
+#blok4_6 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok5_6 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok6_6 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok7_6 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok4_7 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok5_7 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok6_7 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok7_7 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok8_7 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok9_7 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok10_7 {
+  background-color: rgb(230, 172, 115);
+}
+#blok1_11 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok2_11 {
+  background-color: rgb(230, 172, 115);
+}
+#blok11_11 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok12_11 {
+  background-color: rgb(230, 172, 115);
+}
+
+/* rij12 */
+
+#blok1_12 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok2_12 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok3_12 {
+  background-color: rgb(230, 172, 115);
+}
+#blok10_12 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok11_12 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok12_12 {
+  background-color: rgb(230, 172, 115);
+}
+
+/* rij13 */
+
+#blok1_13 {
+  background-color: rgb(230, 172, 115);
+}
+
+#blok2_13 {
+  background-color: rgb(230, 172, 115);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 2000px) {
+
+#blok6_3 {
+  background-color: rgb(110, 68, 23);
+
+}
+
+#blok7_3 {
+  background-color: rgb(110, 68, 23);
+
+}
+
+#blok9_3 {
+  background-color: rgb(110, 68, 23);
+
+}
+
+#blok3_4 {
+  background-color: rgb(110, 68, 23);
+}
+
+#blok5_4 {
+  background-color: rgb(110, 68, 23);
+
+}
+
+#blok6_4 {
+  background-color: rgb(110, 68, 23);
+
+}
+
+#blok7_4 {
+  background-color: rgb(110, 68, 23);
+
+}
+
+
+#blok9_4 {
+  background-color: rgb(110, 68, 23);
+
+}
+
+#blok10_4 {
+  background-color:rgb(110, 68, 23);
+
+}
+#blok3_5 {
+  background-color:rgb(110, 68, 23);
+}
+
+#blok6_5 {
+background-color: rgb(110, 68, 23);
+}
+
+#blok7_5 {
+background-color: rgb(110, 68, 23);
+}
+
+#blok8_5 {
+background-color: rgb(110, 68, 23);
+}
+
+#blok10_5 {
+background-color: rgb(110, 68, 23);
+}
+
+#blok11_5 {
+background-color: rgb(110, 68, 23);
+}
+
+#blok12_5 {
+background-color: rgb(110, 68, 23);
+}
+#blok4_6 {
+background-color: rgb(110, 68, 23);
+}
+
+#blok5_6 {
+background-color: rgb(110, 68, 23);
+}
+
+#blok6_6 {
+background-color: rgb(110, 68, 23);
+}
+
+#blok7_6 {
+background-color: rgb(110, 68, 23);
+}
+
+#blok4_7 {
+background-color: rgb(110, 68, 23);
+}
+
+#blok5_7 {
+background-color: rgb(110, 68, 23);
+}
+
+#blok6_7 {
+background-color: rgb(110, 68, 23);
+}
+
+#blok7_7 {
+background-color: rgb(110, 68, 23);
+}
+
+#blok8_7 {
+background-color: rgb(110, 68, 23);
+}
+
+#blok9_7 {
+background-color:rgb(110, 68, 23);
+}
+
+#blok10_7 {
+background-color:rgb(110, 68, 23);
+}
+#blok1_11 {
+background-color:rgb(110, 68, 23);
+}
+
+#blok2_11 {
+background-color:rgb(110, 68, 23);
+}
+#blok11_11 {
+background-color:rgb(110, 68, 23);
+}
+
+#blok12_11 {
+background-color:rgb(110, 68, 23);
+}
+
+/* rij12 */
+
+#blok1_12 {
+background-color:rgb(110, 68, 23);
+}
+
+#blok2_12 {
+background-color:rgb(110, 68, 23);
+}
+
+#blok3_12 {
+background-color:rgb(110, 68, 23);
+}
+#blok10_12 {
+background-color:rgb(110, 68, 23);
+}
+
+#blok11_12 {
+background-color:rgb(110, 68, 23);
+}
+
+#blok12_12 {
+background-color:rgb(110, 68, 23);
+}
+
+/* rij13 */
+
+#blok1_13 {
+background-color:rgb(110, 68, 23);
+}
+
+#blok2_13 {
+background-color:rgb(110, 68, 23);
+}
+}

@@ -1,3 +1,110 @@
+<?php
+
+require_once 'projects-data.php';
+
+$projectsDirectory = __DIR__ . '/school-projects';
+
+$featuredProjects = [];
+
+$ignoredFolders = [
+    '.',
+    '..',
+    '.vscode',
+    '.git'
+];
+
+function getFeaturedProjectImage($folderPath, $folderName)
+{
+    $extensions = ['jpg', 'jpeg', 'png', 'gif', 'webp'];
+
+    foreach ($extensions as $extension) {
+
+        $images = glob(
+            $folderPath . '/*.' . $extension,
+            GLOB_NOSORT
+        );
+
+        if ($images) {
+
+            $imageName = basename($images[0]);
+
+            return 'school-projects/' .
+                rawurlencode($folderName) .
+                '/' .
+                rawurlencode($imageName);
+        }
+    }
+
+    return '';
+}
+
+function getFeaturedProjectTitle($folder)
+{
+    $folder = str_replace(
+        ['-', '_'],
+        ' ',
+        $folder
+    );
+
+    return ucwords($folder);
+}
+
+if (is_dir($projectsDirectory)) {
+
+    foreach (scandir($projectsDirectory) as $folder) {
+
+        if (in_array($folder, $ignoredFolders, true)) {
+            continue;
+        }
+
+        $folderPath =
+            $projectsDirectory . '/' . $folder;
+
+        if (!is_dir($folderPath)) {
+            continue;
+        }
+
+        $data = $projectData[$folder] ?? [];
+
+        if (($data['featured'] ?? false) !== true) {
+            continue;
+        }
+
+        $featuredProjects[] = [
+
+            'folder' => $folder,
+
+            'title' =>
+                $data['title']
+                ?? getFeaturedProjectTitle($folder),
+
+            'description' =>
+                $data['description']
+                ?? 'A project created during my Software Development studies.',
+
+            'image' =>
+                getFeaturedProjectImage(
+                    $folderPath,
+                    $folder
+                ),
+
+            'link' =>
+                'project-details.php?project=' .
+                rawurlencode($folder)
+
+        ];
+    }
+}
+
+// Maximum 3 projecten op de homepage
+$featuredProjects = array_slice(
+    $featuredProjects,
+    0,
+    3
+);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -140,40 +247,62 @@ Outside of school and programming, I enjoy playing football, gaming, and explori
             </div>
             <!-- End Services Section -->
 
-            <!------------------------------- Begin Portfolio Section ------------------------------->
-             <div id="portfolio">
-                <div class="container">
-                    <h1 class="sub-title">My Work!</h1>
-                    <div class="work-list">
-                        <div class="work">
-                            <img src="images/work-1.png">
-                            <div class="layer">
-                                <h3>Webshop App</h3>
-                                <p>Click to go to the app!</p>
-                                <a href="Projects.php"><i class="fa-solid fa-up-right-from-square"></i></a>
-                            </div>
-                        </div>
-                        <div class="work">
-                            <img src="images/work-1.png">
-                            <div class="layer">
-                                <h3>Social Media App</h3>
-                                <p>Click to go to the app!</p>
-                                <a href="Projects.php"><i class="fa-solid fa-up-right-from-square"></i></a>
-                            </div>
-                        </div>
-                        <div class="work">
-                            <img src="images/work-1.png">
-                            <div class="layer">
-                                <h3>Music App</h3>
-                                <p>Click to go to the app!</p>
-                                <a href="Projects.php"><i class="fa-solid fa-up-right-from-square"></i></a>
-                            </div>
-                        </div>
+           <!------------------------------- Begin Portfolio Section ------------------------------->
+
+<div id="portfolio">
+
+    <div class="container">
+
+        <h1 class="sub-title">My Work!</h1>
+
+        <div class="work-list">
+
+            <?php foreach ($featuredProjects as $project): ?>
+
+                <div class="work">
+
+                    <?php if ($project['image']): ?>
+
+                        <img
+                            src="<?= htmlspecialchars($project['image']) ?>"
+                            alt="<?= htmlspecialchars($project['title']) ?>"
+                        >
+
+                    <?php endif; ?>
+
+                    <div class="layer">
+
+                        <h3>
+                            <?= htmlspecialchars($project['title']) ?>
+                        </h3>
+
+                        <p>
+                            <?= htmlspecialchars($project['description']) ?>
+                        </p>
+
+                        <a
+                            href="<?= htmlspecialchars($project['link']) ?>"
+                        >
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+
                     </div>
-                    <a href="projects.php" class="btn">See More</a>
+
                 </div>
-             </div>
-                <!-- End Portfolio Section -->
+
+            <?php endforeach; ?>
+
+        </div>
+
+        <a href="projects.php" class="btn">
+            See More
+        </a>
+
+    </div>
+
+</div>
+
+<!------------------------------- End Portfolio Section ------------------------------->
 
         <!------------------------------- Begin Contact Section ------------------------------->
         <div id="contact">

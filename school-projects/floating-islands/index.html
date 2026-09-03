@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Islands</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   
+
+    <div id="wolkendoos1">
+
+        <div id="wolklangdeel"></div>
+        <div id="wolkkleinbolletje"></div>
+        <div id="wolkgrootbolletje"></div>
+
+    </div>
+
+    <div id="wolkendoos2">
+
+        <div id="wolklangdeel"></div>
+        <div id="wolkkleinbolletje"></div>
+        <div id="wolkgrootbolletje"></div>
+
+    </div>
+
+    <div id="wolkendoos3">
+
+        <div id="wolklangdeel"></div>
+        <div id="wolkkleinbolletje"></div>
+        <div id="wolkgrootbolletje"></div>
+
+    </div>
+
+    <div id="wolkendoos4">
+
+        <div id="wolklangdeel"></div>
+        <div id="wolkkleinbolletje"></div>
+        <div id="wolkgrootbolletje"></div>
+
+    </div>
+
+    <div id="wolkendoos5">
+
+        <div id="wolklangdeel"></div>
+        <div id="wolkkleinbolletje"></div>
+        <div id="wolkgrootbolletje"></div>
+
+    </div>
+
+    <div id="wolkendoos6">
+
+        <div id="wolklangdeel"></div>
+        <div id="wolkkleinbolletje"></div>
+        <div id="wolkgrootbolletje"></div>
+
+    </div>
+
+    <div id="eilandcontainer">
+        <div id="bergen">
+            <div id="berg1"></div>
+            <div id="berg2"></div>
+            <div id="berg3"></div>
+            <div id="berg4"></div>
+            <div id="berg5"></div>
+            <div id="sneeuw"></div>
+
+            <div id="boomstam1"></div>
+            <div id="boomstam2"></div>
+            <div id="boomstam3"></div>
+            <div id="boomstam4"></div>
+
+            <div id="boomblad1_1"></div>
+            <div id="boomblad2_1"></div>
+            <div id="boomblad3_1"></div>
+
+            <div id="boomblad1_2"></div>
+            <div id="boomblad2_2"></div>
+            <div id="boomblad3_2"></div>
+
+            <div id="boomblad1_3"></div>
+            <div id="boomblad2_3"></div>
+            <div id="boomblad3_3"></div>
+
+            <div id="boomblad1_4"></div>
+            <div id="boomblad2_4"></div>
+            <div id="boomblad3_4"></div>
+        </div>
+
+
+
+
+        <div id="eiland1"></div>
+        <div id="eiland2"></div>
+        <div id="eiland3"></div>
+        <div id="eiland4"></div>
+        <div id="eiland5"></div>
+        <div id="eiland6"></div>
+    </div>
+
+    <div class="night-toggle" onClick="switchMode()">
+        <div id="moon" class="sun"></div>
+    </div>
+
+    <div id="vliegtuigcontainer">
+        <div id="balk1" ></div>
+        <div id="balk2" ></div>
+        <div id="driehoekboven"></div>
+        <div id="driehoekonder"></div>
+        <div id="staart"></div>
+        <div id="raam1"></div>
+        <div id="deur"></div>
+        <div id="raam2"></div>
+        <div id="raam3"></div>
+        <div id="raam4"></div>
+    </div>
+
+
+    <script>
+        function switchMode() {
+            let moon = document.getElementById("moon");
+            if (moon.className == "sun") {
+                moon.className = "moon";
+                document.body.style.backgroundColor = "#141D26";
+                document.body.style.color = "#fff";
+            }
+            else {
+                moon.className = "sun";
+                document.body.style.backgroundColor = "#1ea6b0";
+                document.body.style.color = "#000000";
+            }
+        } </script>
+</body>
+
+</html>

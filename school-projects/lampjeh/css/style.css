@@ -1,0 +1,89 @@
+body {
+  height: 900PX;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;  
+  top: -100px;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  height: 395px;
+  width: 395px;
+  background-color: rgb(165, 172, 194);
+  border-radius: 50%;
+  position: relative;
+  top: 330px;
+  z-index: 1;
+  transition: background-color 0.3s;
+  }
+
+input[type="checkbox"]:checked {
+  background-color: #ffd845;
+  box-shadow: 0px 0px 280px yellow;
+   }
+ 
+
+
+.balk1 {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(0, 59, 70);
+  top: -20px;
+  position: relative;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+
+.balk2 {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(0, 26, 37);
+  top: -20px;
+  position: relative;
+  margin: 0 auto;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.halfbol {
+  width: 90px;
+  height: 90px;
+  background-color: rgb(0, 26, 37);
+  position: relative;
+  border-radius: 100%;
+  margin: 0 auto;
+  top: -60px;
+  z-index: 1000;
+}
+
+
+.lijn {
+  width: 60px;
+  height: 155px;
+  background-color: gray;
+  margin: 0 auto;
+  top: 31px;
+  position: relative;
+  z-index: 1;
+}
+
+.lijn:active {
+  background-color: rgb(255, 208, 0);
+}
+
+.rondje {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  margin: 0 auto;
+  top: 58px;
+  border: 50px solid gray;
+  border-radius: 100%;
+  z-index: 1;
+} 

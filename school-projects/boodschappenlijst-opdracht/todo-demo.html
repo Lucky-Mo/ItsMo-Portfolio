@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List food</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: linear-gradient(90deg, red, purple);
+            color: white;
+        }
+    </style>
+<body>
+    <center><h1>Todo food</h1></center>
+    <hr>
+
+    <input type="text" id="item" required><br>
+    <button type="button" onclick="addToList()"">Save</button>
+
+
+    <ul id="ul">
+
+    </ul>
+
+    <script>
+        const ul = document.getElementById("ul");
+
+        function addToList(){
+            const input = document.getElementById("item");
+            ul.innerHTML += input.value + "<br>";
+        }
+    </script>
+</body>
+</html>
