@@ -121,7 +121,7 @@ if (is_dir($projectsDirectory)) {
 <div id="header">
         <div class="container">
             <nav>
-                <img href='index.php' src="images/portlogor.png" class="logo">
+                <a href="index.php"><img src="images/portlogor.png" class="logo"></a>
                 <ul id="sidemenu">
                     <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
                     <li><a href="index.php">Home</a></li>

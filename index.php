@@ -166,7 +166,7 @@ $featuredProjects = array_slice(
     <div id="header">
         <div class="container">
             <nav>
-                <img href='index.php' src="images/portlogor.png" class="logo">
+                <a href='#home'><img src="images/portlogor.png" class="logo"></a>
                 <ul id="sidemenu">
                     <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
                     <li><a href="#home"><?= $text['home'] ?></a></li>
